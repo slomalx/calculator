@@ -1,0 +1,66 @@
+
+.container {
+    margin: 100px auto;
+    padding: 70px;
+    border-radius: 45px;
+    width: 908px;
+    height: 716px;
+    border: 1px solid #747474;
+}
+
+.viewer {
+    border-radius: 20px;
+    border: 1px solid #9E9E9E;
+    height: 88px;
+    width: 100%;
+    margin-bottom: 30px;
+    font: 60px 'montserrat';
+    padding: 20px;
+    text-align: right;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+
+  .keyboard {
+    display: grid;
+    grid-template-columns: repeat(5, 134px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 20px 25px;
+  }
+
+  button {
+  border-radius: 10px;
+  font: 40px 'montserrat';
+  }
+  
+
+
+  .number {
+    background-color: #F2F2FA;
+  }
+
+  .operation {
+    background-color: #C9DFFF;
+  }
+
+  .equals {
+    background-color: #798CEF;
+  }
+
+  .reset {
+    background-color: #F0A5A5;
+  }
+
+  button:hover {
+    transform: scale(1.07);
+    opacity: 75%;
+  }
