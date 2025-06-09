@@ -9,31 +9,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="script.js"></script>
 </head>
 <body>
     <div class="container">
-        <input type="number" class="viewer" id="viewer">
+        <input type="text" class="viewer" id="viewer">
         <div class="keyboard">
-        <button class="number" id="num_7">7</button>
-        <button class="number" id="num_8">8</button>
-        <button class="number" id="num_9">9</button>
+        <button class="number" data-number="7">7</button>
+        <button class="number" data-number="8">8</button>
+        <button class="number" data-number="9">9</button>
         <button class="operation" id="plus">+</button>
         <button class="operation" id="factorial">X!</button>
 
-        <button class="number" id="num_4">4</button>
-        <button class="number" id="num_5">5</button>
-        <button class="number" id="num_6">6</button>
+        <button class="number" data-number="4">4</button>
+        <button class="number" data-number="5">5</button>
+        <button class="number" data-number="6">6</button>
         <button class="operation" id="minus">-</button>
         <button class="operation" id="raise">X<sup>y</sup></button>
 
-        <button class="number" id="num_1">1</button>
-        <button class="number" id="num_2">2</button>
-        <button class="number" id="num_3">3</button>
+        <button class="number" data-number="1">1</button>
+        <button class="number" data-number="2">2</button>
+        <button class="number" data-number="3">3</button>
         <button class="operation" id="divide">/</button>
         <button class="operation" id="sqrt">√</button>
 
-        <button class="number" id="num_0">0</button>
-        <button class="number" id="dot">.</button>
+        <button class="number" data-number="0">0</button>
+        <button class="number" data-number=".">.</button>
         <button class="equals" id="equals">=</button>
         <button class="operation" id="multi">*</button>
         <button class="reset" id="reset">C</button>
