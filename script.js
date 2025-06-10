@@ -1,12 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
     const viewer = document.getElementById('viewer');
     const numberButtons = document.querySelectorAll('.number');
+    const resetButton = document.getElementById('reset')
     
 
     viewer.addEventListener('input', function() {
         this.value = this.value.replace(/[^0-9.]/g, '')
                   .replace(/(\..*)\./g, '$1'); // Удаляем лишние точки
     });
+
+        // Обработчик для кнопки сброса
+        resetButton.addEventListener('click', function() {
+            viewer.value = ''; // Очищаем значение инпута
+        });
+
+    
 
     
     numberButtons.forEach(button => {
